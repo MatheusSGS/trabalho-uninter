@@ -1,0 +1,58 @@
+
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Uninter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Matheus Anderson Sagas</h1>
+    <p>Olá! Meu nome é Matheus, tenho 25 anos, sou de Navegantes. Meus interesses incluem leitura, correr e jogar.</p>
+
+    <ul>
+        <li>Ler</li>
+        <li>Correr</li>
+        <li>Jogar</li>
+    </ul>
+
+    <img src="img/img-correr.jpg" alt="Imagem de correr">
+
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="img/japao.jpg" alt="País 1" width="100"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="img/canada.jpg" alt="País 2" width="100"></td>
+        </tr>
+        <tr>
+            <td>México</td>
+            <td><img src="img/mexico.jpg" alt="País 3" width="100"></td>
+        </tr>
+    </table>
+
+    <a href="https://www.w3schools.com/" target="_blank">Meu site favorito!</a>
+
+    <button onclick="showMessage()">Clique para ver uma mensagem!</button>
+    <div id="message" style="display:none;"></div>
+
+    <script>
+        function showMessage() {
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerHTML = "Primeiro diga a si mesmo o que você seria, e então faça o que você tem que fazer.";
+            messageDiv.style.display = 'block'; 
+        }
+    </script>
+
+</body>
+</html>
+```
